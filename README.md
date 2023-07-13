@@ -22,7 +22,8 @@ brew install <FORMULA>
 
 | Repository | Formula | Description |
 | ---------- | ------- | ----------- |
-| [tpm](https://github.com/Madh93/tpm) | [tpm](tpm.rb) | :hammer_and_wrench: A package manager for Terraform providers  |
+| [toffu](https://github.com/Madh93/toffu) | [toffu](toffu.rb) | :hourglass_flowing_sand: Woffu presence from your terminal |
+| [tpm](https://github.com/Madh93/tpm) | [tpm](tpm.rb) | :hammer_and_wrench: A package manager for Terraform providers |
 
 ## Useful Links
 
