@@ -5,21 +5,21 @@
 class Toffu < Formula
   desc "Woffu presence from your terminal"
   homepage "https://github.com/Madh93/toffu"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Madh93/toffu/releases/download/v0.1.0/toffu_Darwin_arm64.tar.gz"
-      sha256 "0873a9c3f4d5f435f9897af4ab3a3d5bb31c7a51d416278ecb24883a6a913554"
+      url "https://github.com/Madh93/toffu/releases/download/v0.2.0/toffu_Darwin_arm64.tar.gz"
+      sha256 "e3ff0ce3e7cddddb37a5db68826c8580e00ea57ab1a63f06ccee1fb8e4ab8015"
 
       def install
         bin.install "toffu"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Madh93/toffu/releases/download/v0.1.0/toffu_Darwin_x86_64.tar.gz"
-      sha256 "3104d590af012c4e03240330f9758fed7a12c4924014529601da5e61f9ffe5ea"
+      url "https://github.com/Madh93/toffu/releases/download/v0.2.0/toffu_Darwin_x86_64.tar.gz"
+      sha256 "0f07e116ea0fec7ead2ba4cc4df9229bd61d3c99e52e5f26d29ffc2e1ff245db"
 
       def install
         bin.install "toffu"
@@ -29,16 +29,16 @@ class Toffu < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Madh93/toffu/releases/download/v0.1.0/toffu_Linux_arm64.tar.gz"
-      sha256 "ede5f6419581b39c608021a4e0405e85f96de5cf2cdc34a00b69c98819f52aa5"
+      url "https://github.com/Madh93/toffu/releases/download/v0.2.0/toffu_Linux_arm64.tar.gz"
+      sha256 "b2e8e5399e445c5e11eb174a287cf9d9079fd89e0f1f7b9d4edd44e60d9a6375"
 
       def install
         bin.install "toffu"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Madh93/toffu/releases/download/v0.1.0/toffu_Linux_x86_64.tar.gz"
-      sha256 "d9308864a68c6fefa33c2615cd783dac7603dc75e181faa4149b452d76637829"
+      url "https://github.com/Madh93/toffu/releases/download/v0.2.0/toffu_Linux_x86_64.tar.gz"
+      sha256 "3512f65b047088107c9550d8e078f752d5bf9c8ed41854a7c20e47a6fb7ac3fe"
 
       def install
         bin.install "toffu"
